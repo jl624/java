@@ -1,0 +1,42 @@
+<!DOCTYPE html><!--约束声明-->
+<html lang="zh_CN"><!--html标签表示html的开始 lang="zh_CN"表示中文  html标签一般分为两个部分，分别是：head和body-->
+<head><!--表示头部信息 一般包含三部分内容：title标签，css样式，js代码-->
+    <meta charset="UTF-8"><!--表示当前页面使用UTF-8字符集-->
+    <title>Title</title><!--标题-->
+</head>
+<!--
+    onclick表示点击事件
+    alert()是javaScript语言提供的一种警告框函数
+    它可以接收任意函数，参数就是警告框的提示信息
+-->
+<body><!--body标签是整个html的显示的主体内容-->
+    <button onclick="alert('lewjin好帅！')">按钮</button>
+    <!--a标签是 超链接
+            href属性设置连接的地址
+            target属性设置哪个目标进行跳转
+                _self   表示当前页面
+                _blank  表示打开新页面来进行跳转
+    -->
+    <a href="http://baidu.com">百度</a><br/>
+    <a href="http://baidu.com" target="_self">百度_self</a><br/>
+    <a href="http://baidu.com" target="_blank">百度_blank</a><br/>
+    <!--使用无序列表，列表方式，把东北F4，赵四，刘能，小沈阳，宋小宝展示出来
+        ul 是无序列表
+        ol 是有序列表
+            type属性修改列表项前面的符号
+        li 是列表项
+    -->
+    <ul type="none">
+        <li>赵四</li>
+        <li>刘能</li>
+        <li>小沈阳</li>
+        <li>宋小宝</li>
+    </ul>
+    <ol>
+        <li>赵四</li>
+        <li>刘能</li>
+        <li>小沈阳</li>
+        <li>宋小宝</li>
+    </ol>
+</body>
+</html>
